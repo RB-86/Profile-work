@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: black;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+}
+.container h1{
+    color: black;
+    margin: 4px;
+    margin-left: auto;
+    font-size: 35px;
+    font-style: italic;
+    text-decoration: underline;
+    font-display: bold;
+}
+.container p{
+    color: black;
+    font-size: 10px;
+    font-style: italic;
+    font-display: bold;
+}
+.nav {
+    background-color: rgba(6, 8, 15, 0.644);
+    width: 35%;
+    border-radius: 10px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    align-items: center;
+    padding: 30px; /* Padding for inner spacing */
+    margin: 20px auto; /* Centering the navbar horizontially with margin */
+}
+
+.nav a {
+    color: rgb(223, 202, 171);
+    text-decoration: underline;
+    padding: 10px 15px; /* Padding inside each link */
+    border-radius: 15px;
+    text-align: center;
+}
+
+.nav a:hover {
+    background-color: aliceblue;
+    color: blue;
+    border-radius: 15px;
+}
+
+button {
+    background-color: rgb(6, 6, 15);
+    color: whitesmoke;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: underline;
+    text-align: center;
+    font-size: medium;
+}
